@@ -87,7 +87,6 @@ export const checkSolanaMainWallet = async (ctx) => {
 		}
 	}
 	
-
 	// Return the wallet details  
 	return `-Public Key: ${address}\n\nPrivate Key: ${privateKey}\n\n-Balance: ${balance} SOL\n\n-USDC Balance: ${usdcBalance}`;
 };   
